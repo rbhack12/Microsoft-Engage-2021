@@ -630,7 +630,7 @@ if(isset($_POST['page']))
 			foreach($result as $row)
 			{
 				$sub_array = array();
-				$sub_array[] = '<img src="../user/upload/'.$row["user_image"].'" class="img-thumbnail" width="75" />';
+				$sub_array[] = '<img src="../user/'.$row["user_image"].'" class="img-thumbnail" width="75" />';
 				$sub_array[] = $row["user_name"];
 				$sub_array[] = $row["user_email_address"];
 				$sub_array[] = $row["user_gender"];
@@ -682,7 +682,7 @@ if(isset($_POST['page']))
 				<div class="row">
 					<div class="col-md-12">
 						<div align="center">
-							<img src="../user/upload/'.$row["user_image"].'" class="img-thumbnail" width="200" />
+							<img src="../user/'.$row["user_image"].'" class="img-thumbnail" width="200" />
 						</div>
 						<br />
 						<table class="table table-bordered">
@@ -782,7 +782,7 @@ if(isset($_POST['page']))
 			foreach($result as $row)
 			{
 				$sub_array = array();
-				$sub_array[] = "<img src='../user/upload/".$row["user_image"]."' class='img-thumbnail' width='75' />";
+				$sub_array[] = "<img src='../user/".$row["user_image"]."' class='img-thumbnail' width='75' />";
 				$sub_array[] = $row["name_user"];
 				$sub_array[] = $row["user_gender"];
 				$sub_array[] = $row["user_mobile_no"];
@@ -883,7 +883,7 @@ if(isset($_POST['page']))
 			foreach($result as $row)
 			{
 				$sub_array = array();
-				$sub_array[] = '<img src="../user/upload/'.$row["user_image"].'" class="img-thumbnail" width="75" />';
+				$sub_array[] = '<img src="../user/'.$row["user_image"].'" class="img-thumbnail" width="75" />';
 				$sub_array[] = $row["user_name"];
 				$sub_array[] = $exam->Get_user_exam_status($exam_id, $row["user_id"]);
 				$sub_array[] = $row["total_mark"];

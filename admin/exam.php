@@ -76,7 +76,7 @@ include('header.php');
 	              			<div class="col-md-8">
 	                			<select name="online_exam_duration" id="online_exam_duration" class="form-control">
 	                				<option value="">Select</option>
-	                				<option value="5">5 Minute</option>
+	                				<option value="2">2 Minute</option>
 	                				<option value="15">15 Minute</option>
 	                				<option value="30">30 Hour</option>
 	                				<option value="60">1 Hour</option>

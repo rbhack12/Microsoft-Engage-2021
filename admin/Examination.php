@@ -15,22 +15,13 @@ class Examination
 
 	function __construct()
 	{
-		/* $this->host = 'localhost';
+		$this->host = 'localhost';
 		$this->username = 'root';
 		$this->password = '';
 		$this->database = 'exam_asy';
 		$this->home_page = 'http://localhost/exam_asy/';
 
-		$this->connect = new PDO("mysql:host=$this->host; dbname=$this->database", "$this->username", "$this->password");*/
-		$cleardb_url = parse_url(getenv("CLEARDB_DATABASE_URL"));
-		$cleardb_server = $cleardb_url["host"];
-		$cleardb_username = $cleardb_url["user"];
-		$cleardb_password = $cleardb_url["pass"];
-		$cleardb_db = substr($cleardb_url["path"],1);
-		$active_group = 'default';
-		$query_builder = TRUE;
-		// Connect to DB
-		$this->connect = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
+		$this->connect = new PDO("mysql:host=$this->host; dbname=$this->database", "$this->username", "$this->password");
 
 		session_start();
 	}

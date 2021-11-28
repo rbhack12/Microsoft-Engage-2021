@@ -405,7 +405,7 @@ if(isset($_POST['page']))
 				}
 				if($row["online_exam_status"] == 'Completed')
 				{
-					$view_exam = '<a href="view_exam.php?code='.$row["online_exam_code"].'" class="btn btn-info btn-sm">View Exam</a>';
+					$view_exam = '<a href="view_exam.php?code='.$row["online_exam_code"].'" class="btn btn-info btn-sm">View Result</a>';
 				}
 
 				
@@ -603,7 +603,7 @@ if(isset($_POST['page']))
 			{
 				$output .= '
 				<div class="col-md-3">
-					<img src="upload/'.$row["user_image"].'" class="img-fluid" />
+					<img src="'.$row["user_image"].'" class="img-fluid" />
 				</div>
 				<div class="col-md-9">
 					<table class="table table-bordered">

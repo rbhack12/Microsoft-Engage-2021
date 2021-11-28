@@ -1,7 +1,7 @@
 # Exam-asy
 ## _An online system for Examination_
 
-Exam-asy is an online platorm where making and giving exams online becomes Easy.
+Exam-asy is an online platform where making, conducting and giving exams online becomes easy and seamless. This platform has been specifically designed keeping the student's needs in mind while also ensuring a smooth and user-friendly experience for the teachers.
 
 ## Features
 

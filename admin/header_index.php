@@ -30,7 +30,7 @@ $exam->admin_session_private();
     <script src="../user/style/bootstrap-datetimepicker.js"></script>
     <style>  
         body {
-        font-family: 'Times New Roman', serif;
+        font-family: 'Gill Sans', sans-serif;
         }
     </style>
 </head>

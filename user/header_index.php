@@ -18,7 +18,7 @@
     <script src="style/TimeCircles.js"></script>
     <style>  
         body {
-        font-family: 'Times New Roman', serif;
+        font-family: 'Gill Sans', sans-serif;
         }
     </style>
 </head>
@@ -37,7 +37,7 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="user/enroll_exam.php">Enroll Exam</a>
+          <a class="nav-link" href="user/enroll_exam.php">Exams List</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="user/profile.php">Profile</a>

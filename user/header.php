@@ -18,7 +18,7 @@
     <script src="style/TimeCircles.js"></script>
     <style>
     body {
-        font-family: 'Times New Roman', serif;
+        font-family: 'Gill Sans', sans-serif;
         }
     </style>
 </head>

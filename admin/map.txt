@@ -1,0 +1,21 @@
+Earlier value ------------------------ New value
+
+master/register.php
+
+admin_register_form ----------- register_form_admin
+admin_email_address ------ mail_address_admin
+admin_password ------ password_admin
+confirm_admin_password-----confirm_password_admin
+check_email ---- email_check
+admin_register ---- register_admin
+
+master/login.php
+
+admin_login_form ------- login_form_admin
+admin_login ---- login_admin
+
+master/exam.php
+
+exam_data_table ---- table_exam
+formModal ---- modalform
+exam_form ----- form_exam
